@@ -71,6 +71,7 @@ class ürün():
             print(f"{a.ürün_adı}\t{a.barkod}")
 
     def kataloga_ürün_ekle():
+        ürün.katalog_görüntüle()
         ü_isim = str(input("kataloğa eklenicek olan ürünün ismi:"))
         ü_barkod = int(input("kataloğa eklenicek olan ürünün barkodu:"))
         while ü_barkod in ürün.ürün_barkodları:
