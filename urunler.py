@@ -133,7 +133,6 @@ class ürün():
         spete_eklenicek_barkod = int(input("barkod giriniz = "))
         if spete_eklenicek_barkod in ürün.ürün_barkodları:
             eklenen_ürün = ürün.ürün_dict[spete_eklenicek_barkod]
-            print(eklenen_ürün)
             cvp2 = int(input("kaç tane almak istersiniz : "))
             if cvp2 > 0:
                 ürün_adet = cvp2
